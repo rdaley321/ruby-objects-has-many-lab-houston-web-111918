@@ -9,6 +9,5 @@ class Artist
   def add_song(song)
     self.songs << song
     song.artist = self
-    binding.pry
   end
 end
