@@ -19,7 +19,7 @@ class Author
     add_post(new)
   end
   
-  def all_posts
+  def self.all_posts
     @@all_posts
   end
   
